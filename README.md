@@ -1,13 +1,13 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
-# LilyPond Jazz Trio Templates
+# LilyPond Jazz Templates
 
-GNU LilyPond templates for jazz trios. 
+GNU LilyPond templates for jazz.
 
 ## Templates
 
-This repository currently contains templates for two variations on the jazz trio: 
+This repository currently contains templates for two variations on the jazz trio, as well as a quartet and jazz combo: 
 
 - [Drums - Bass - Piano](./templates/piano-trio-template.ly)
 - [Drums - Bass - Guitar](./templates/guitar-trio-template.ly)
