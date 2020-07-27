@@ -7,10 +7,20 @@ GNU LilyPond templates for jazz.
 
 ## Templates
 
-This repository currently contains templates for two variations on the jazz trio, as well as a quartet and jazz combo: 
+This repository currently contains templates for two variations on the jazz trio, as well as a quartet and jazz combo.
 
-- [Trio | Drums - Bass - Piano](./templates/piano-trio-template.ly)
-- [Trio | Drums - Bass - Guitar](./templates/guitar-trio-template.ly)
+### Duos
+
+- [Duo | Bass - Piano](./templates/bass-piano-duo.ly)
+- [Duo | Guitar - Piano](./templates/guitar-piano-duo.ly)
+
+### Trios
+
+- [Trio | Drums - Bass - Piano](./templates/piano-trio.ly)
+- [Trio | Drums - Bass - Guitar](./templates/guitar-trio.ly)
+
+### Quartets
+
 - [Quartet | Drums - Bass - Piano - Guitar](./templates/piano-guitar-quartet.ly)
 
 They are found in the [templates](./templates) directory. 
