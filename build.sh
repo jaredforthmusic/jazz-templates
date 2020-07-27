@@ -1,3 +1,3 @@
 #!/bin/bash
 
-lilypond -o output templates/*.ly 
+lilypond -o output/ templates/*.ly 
