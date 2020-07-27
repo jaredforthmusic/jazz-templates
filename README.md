@@ -9,8 +9,8 @@ A GNU LilyPond template for a jazz trio.
 
 This repository currently contains templates for two variations on the jazz trio: 
 
-- [Drums - Bass - Piano]()
-- [Drums - Bass - Guitar]()
+- [Drums - Bass - Piano](./templates/piano-trio-template.ly)
+- [Drums - Bass - Guitar](./templates/guitar-trio-template.ly)
 
 They are found in the [templates](./templates) directory. 
 
