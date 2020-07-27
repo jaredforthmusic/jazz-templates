@@ -11,7 +11,7 @@ This repository currently contains templates for two variations on the jazz trio
 
 ### Duos
 
-- [Duo | Bass - Piano](./templates/bass-piano-duo.ly)
+- [Duo | Bass - Piano](./templates/piano-bass-duo.ly)
 - [Duo | Guitar - Piano](./templates/guitar-piano-duo.ly)
 
 ### Trios

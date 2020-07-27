@@ -4,7 +4,7 @@
 
 \header {
   title = "Example Song"
-  subtitle = "Piano/Guitar Duo"
+  subtitle = "Piano Trio"
   composer = "Example Composer"
   meter = "moderato"
   piece = "Swing"
@@ -48,31 +48,6 @@ global = { \time 4/4 }
 Key = { \key c \major }
 
 % ############ Rhythm Section #############
-
-% ------ Guitar ------
-gtr = \relative c'' {
-  \Key
-  c1
-  \sl
-  b4 b b b
-  \nsl
-  c1
-  b4 b b b
-  b4 b b b
-  b4 b b b
-  b4 b b b
-}
-gtrHarmony = \chordmode {
-  \jazzChords
-  s1 c2:min7+ d2:maj9
-}
-guitar = {
-  \global
-  \clef treble
-  <<
-    \gtr
-  >>
-}
 
 %% ------ Piano ------
 rhUpper = \relative c'' {
@@ -127,19 +102,41 @@ piano = {
   >>
 }
 
+% ------ Bass Guitar ------
+Bass = \relative c {
+  \Key
+  c1 | c | c
+  c1 | c | c
+  c1 |
+}
+bass = {
+  \global
+  \clef bass
+  <<
+    \Bass
+  >>
+}
+
+drumContents = {
+  \global
+  <<
+    \new DrumVoice \up
+    \new DrumVoice \down
+  >>
+}
+
 %%%%%%%%% It All Goes Together Here %%%%%%%%%%%%%%%%%%%%%%
 
 \score {
   <<
     \new StaffGroup = "rhythm" <<
-      \new ChordNames = "chords" \gtrHarmony
-      \new Staff = "guitar" \with { instrumentName = "Guitar" }
-      \guitar
       \new PianoStaff = "piano" \with {
         instrumentName = "Piano"
         midiInstrument = "acoustic grand"
       }
       \piano
+      \new Staff = "bass" \with { instrumentName = "Bass" }
+      \bass
     >>
   >>
   \layout {

@@ -11,10 +11,6 @@
   tagline = "Trio Template Example by jaredforthmusic.com"
 }
 
-\book {
-    \bookOutputName "piano-guitar-quartet"
-}
-
 \paper  {
   left-margin = 0.75\in
   % Set LilyJAZZ fonts
