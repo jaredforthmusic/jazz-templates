@@ -3,11 +3,11 @@
 
 # LilyPond Jazz Templates
 
-GNU LilyPond templates for jazz.
+GNU LilyPond templates for jazz. The purpose of this repository is to have an list of templates to get started quickly with a jazz composition. The best part of composing is creating music, not fighting with technology, so my hope is that this will make creating beautiful jazz scores with LilyPond more accessible to more composers.  
 
 ## Templates
 
-This repository currently contains templates for two variations on the jazz trio, as well as a quartet and jazz combo.
+This repository currently contains the following templates:
 
 ### Duos
 
@@ -23,7 +23,11 @@ This repository currently contains templates for two variations on the jazz trio
 
 - [Quartet | Drums - Bass - Piano - Guitar](./templates/piano-guitar-quartet.ly)
 
-They are found in the [templates](./templates) directory. 
+They are found in the [templates](./templates) directory.
+
+### Adding New Templates
+
+There are quite a few more instrumentation variations that are used in jazz, so feel free to add the combination most useful for you. The easiest way to get started is to copy one of the existing templates and modify it to satisfy your use case. See [contributions](#contributions) for more information on contributing to the repository. 
 
 ## Usage 
 
