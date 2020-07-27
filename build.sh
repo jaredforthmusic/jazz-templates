@@ -1,3 +1,7 @@
 #!/bin/bash
 
-lilypond -o output/ templates/*.ly 
+# Compile files
+lilypond templates/*.ly 
+
+# Move to ./output
+mv *.pdf *.midi output/
