@@ -3,7 +3,9 @@
 
 # LilyPond Jazz Templates
 
-GNU LilyPond templates for jazz. The purpose of this repository is to have an list of templates to get started quickly with a jazz composition. The best part of composing is creating music, not fighting with technology, so my hope is that this will make creating beautiful jazz scores with LilyPond more accessible to more composers.  
+This repository contains GNU LilyPond templates for jazz.
+
+ The purpose of this repository is to have an list of templates to get started quickly with a jazz composition. The best part of composing is creating music, not fighting with technology, so my hope is that this will make creating beautiful jazz scores with LilyPond more accessible to more composers.  
 
 ## Templates
 
