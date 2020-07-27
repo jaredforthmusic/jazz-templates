@@ -38,6 +38,6 @@ This repository is a work in progress. As such, contributions are welcome. All c
 
 ## License
 
-Licensed under the [GNU General Public Licence, Version 3](./LICENCE.md).
+Licensed under the [GNU General Public Licence, Version 3](./LICENCE).
 
 Any contribution intentionally submitted for inclusion in this repository by you shall be licensed as above, without any additional terms or conditions.
