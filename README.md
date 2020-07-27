@@ -11,7 +11,7 @@ This repository currently contains templates for two variations on the jazz trio
 
 - [Trio | Drums - Bass - Piano](./templates/piano-trio-template.ly)
 - [Trio | Drums - Bass - Guitar](./templates/guitar-trio-template.ly)
-- [Quartet | Drums - Bass - Piano - Guitar](./templates/guitar-piano-quartet.ly)
+- [Quartet | Drums - Bass - Piano - Guitar](./templates/piano-guitar-quartet.ly)
 
 They are found in the [templates](./templates) directory. 
 
