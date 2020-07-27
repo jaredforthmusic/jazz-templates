@@ -1,9 +1,9 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
-# LilyPond Jazz Trio
+# LilyPond Jazz Trio Templates
 
-A GNU LilyPond template for a jazz trio. 
+GNU LilyPond templates for jazz trios. 
 
 ## Templates
 
