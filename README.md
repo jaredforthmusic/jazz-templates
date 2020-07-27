@@ -16,7 +16,7 @@ They are found in the [templates](./templates) directory.
 
 ## Usage 
 
-The `[build.sh](./build.sh)` script runs the program and directs compiled files to the `output` directory. Run `./build.sh` to compile on Linux and Mac systems. 
+The `[build.sh](./build.sh)` script runs the program and directs compiled files to the `output` directory. Run `./build.sh` to compile on Linux and Mac systems. Both PDF and MIDI files are created from the source code. 
 
 ## Font Installation 
 
